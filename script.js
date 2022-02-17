@@ -20,11 +20,15 @@ function game() {
   } else victor = "computer";
   if (playerCount != computerCount) {
     console.log(
-      `The player won ${playerCount} times, the computer won ${computerCount} times, and the constest ended in a tie ${tieCount} times. The ${victor} wins the game!`
+      `The player won ${playerCount} times, the computer won ${computerCount} 
+      times, and the constest ended in a tie ${tieCount} times. The ${victor} 
+      wins the game!`
     );
   } else {
     console.log(
-      `The player won ${playerCount} times, the computer won ${computerCount} times, and the constest ended in a tie ${tieCount} times. The game ended in a draw!`
+      `The player won ${playerCount} times, the computer won ${computerCount} 
+      times, and the constest ended in a tie ${tieCount} times. The game ended 
+      in a draw!`
     );
   }
 }
@@ -76,7 +80,8 @@ function playRound() {
     console.log("Round Canceled");
   } else {
     console.log(
-      `The player chose ${playerChoice}, and the computer chose ${computerChoice}`
+      `The player chose ${playerChoice}, and the c
+      omputer chose ${computerChoice}`
     );
     if (computerChoice === playerChoice) {
       console.log("Tie!");
